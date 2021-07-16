@@ -1,0 +1,6 @@
+query Goods($param: GoodsParam!) {
+  goodsData(param: $param) {
+    goodsId
+    goodsName
+  }
+}

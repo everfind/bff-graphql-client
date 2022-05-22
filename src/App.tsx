@@ -6,7 +6,7 @@ function App() {
   const { data, loading } = useGoodsQuery({
     variables: {
       param: {
-        goodsId: "g-00001",
+        goodsId: "g-001",
       },
     },
   });
